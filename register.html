@@ -1,0 +1,151 @@
+<html>
+<head>
+<title> REGISTER PAGE </title>
+<style>
+img
+{
+border-radius: "50%";
+}
+</style>
+<style>
+
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body
+{
+margin: 0;
+padding: 0;
+font-family : sans-serif;
+background :url(2.jpg) no-repeat;
+background-size: cover;
+}
+
+.login-box{
+
+    width: 280px;
+    position:absolute;
+    top :50%;
+    left :50%;
+    transform: translate(-50%,-50%);}
+
+.login-box h1{
+float: left;
+font-size : 30px;
+border-bottom: 4px solid #12e81a;
+margin-bottom: 20px;
+padding: 13px 0;
+color:black;}
+
+.textbox{
+width: 100%;
+overflow: hidden;
+font-size: 20px;
+padding: 7px ;
+margin :7px ;
+border-bottom: 1px solid #12e81a;
+color:black;}
+
+.textbox1{
+    width:100%;
+    overflow: hidden;
+    font-size:20px;
+    padding:8px;
+    margin:8px;
+	color:black;
+border-bottom: 1px solid #12e81a;}
+
+.textbox i{
+   width :16px;
+   float:left;
+   text-align: right;}
+
+.textbox input{
+    border:none;
+    outline:none;
+    background: none;
+    color:black;
+    font-size: 18px;
+    width:80%;
+    float :left;
+    margin :0px 10px;}
+
+.btn{
+    width: 50%;
+    
+    background: none;
+    border :2px solid #12e81a ;
+    color : white;
+    padding:5px;
+    font-size: 20px;
+    cursor :pointer;
+    margin:12px 0;}
+
+</style>
+</head>
+
+<body>
+<h1 style="font-family:snap itc"> <font color="white"><marquee> <b> ONLINE PIZZA DELIVERY SYSTEM </b></font> </marquee></h1>
+
+<style>
+body{
+background-image:url('pizza-1239077_1920.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%100%;
+}
+</style>
+
+<form action="register.php" method="post">
+<div class="login-box">
+<h1><center> Registration form</h1>
+<br><br>
+
+<div class="textbox">
+<i class="fa fa-user-o" aria-hidden="true"></i>
+<input type="text" placeholder="firstname" name= "firstname" value="" required>
+</div>
+
+<div class="textbox">
+  <i class="fa fa-user-o" aria-hidden="true"></i>
+<input type="text" placeholder="lastname" name= "lastname" value="" required>
+</div>
+
+<div class="textbox1">
+  <i class="fa fa-venus-mars" aria-hidden="true"></i>
+<input type="radio" placeholder="gender" name= "gender" value="M" required> Male
+<input type="radio" placeholder="gender" name= "gender" value="F" required> Female
+<input type="radio" placeholder="gender" name= "gender" value="O" required> Other
+</div>
+
+<div class="textbox">
+  <i class="fa fa-envelope" aria-hidden="true"></i>
+<input type="email" placeholder="email" name= "email" value="" required> 
+ </div>
+
+<div class="textbox">
+  <i class="fa fa-phone" aria-hidden="true"></i>
+<input type="tel" pattern="^\d{10}$"  placeholder="phone" name= "phone" value="" required> 
+</div>
+
+<div class="textbox">
+  <i class="fa fa-map-marker" aria-hidden="true"></i>
+<input type="text" placeholder="address" name= "address" value="" required> 
+    </div>
+
+<div class="textbox">
+   <i class="fa fa-user" aria-hidden="true"></i>
+<input type="text" placeholder="username" name= "username" value="" required> 
+  </div>
+
+<div class="textbox">
+  <i class="fa fa-lock" aria-hidden="true"></i>
+<input type="password" placeholder="password" name= "password" value="" required> 
+</div>
+<div align="center">
+ <!-- <button type="submit|reset" value="submit"></button>-->
+
+<input class="btn" type="submit"  value="Submit"><br>
+
+</div>
+</div>
+</form></body></html>

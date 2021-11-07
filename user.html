@@ -1,0 +1,73 @@
+<html>
+<head>
+
+<link rel="shortcut icon" href="E:\CollegeProjects\WebLab\rv1.png" />
+<title> USER PAGE </title>
+<link rel="stylesheet" href="user.css">
+
+
+</head>
+
+<style>
+.zoom {
+  padding: 9px;
+  background-color: pink;
+  transition: transform .2s;
+  width: 172px;
+  height: 5px;
+  margin: 0 auto;}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+ul{
+	background-color: none;
+	width: 200px;}
+
+li a{
+display: block;
+color: #000;
+padding: 8px 16px;
+
+body{
+background-image:url('download.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100%100%;
+}
+</style>
+
+<body>
+<center>
+<h1 style="font-family:Verdana"> <font color="black"><marquee> <b> Online Pizza Delivery System</b></font> </marquee></h1>
+<form action="log.php" method="post">
+
+
+<div class="login-box">
+<h1> User Login </h1>
+
+<div class="textbox">
+    <i class="fa fa-user" aria-hidden="true"></i>
+    <input type="text" class="zoom" placeholder="Username" name= "username" value="">
+</div>
+
+<div class="textbox">
+    <i class="fa fa-lock" aria-hidden="true"></i>
+   <input type="password" class="zoom" placeholder="Password" name="password" value="">
+</div> 
+
+<div>
+ <input class="btn" type="submit" value="Login"><br>
+ </div>
+
+<a href=" forgot.html"> <font color="green"> Forgot Password? </font></a><br>
+<font color="white"> <font color="black"><p> New user <br> <a href="register.html" >  <font color="green">Register</font></a>  </p></font>
+
+</center>
+</div>
+</form>
+
+</body>
+</html>

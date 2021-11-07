@@ -1,0 +1,338 @@
+
+<html><head>
+	<title>Pizza Ordering</title>
+
+<link rel = "icon" href ="logo.jpg" type = "image/x-icon">
+<link rel="stylesheet" href="./signup_files/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<style>
+
+body
+{
+	font-family: Trebuchet MS;
+}
+
+.divbg {
+  background-image: url('bg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  text-align: right;
+}
+
+div1 {
+  background-color: #000000;
+  padding: 100px;
+}
+
+.log:link, .log:visited {
+
+<!--background-color: black;-->
+
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.log:hover, .log:active {
+  background-color: ff4500;
+}
+
+table
+{
+	padding: 20px;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.tra
+{
+	text-align: center;
+	padding: 5px;
+	border-radius: 25px;
+	box-shadow: 2px 2px 2px 2px grey;
+}
+td
+{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 25px;
+}
+input
+{
+	border: none;
+	background-color: transparent;
+}
+
+</style>
+</head>
+<body>	
+<ul class="navfont">
+  <li><p></p><pre> </pre><p></p></li>
+  <li class="navfont"><a href="C:\xampp\htdocs\user.html"><img src="download1.jpg" width="50" alt="OPDS"></a></li>
+<!--  
+<li class="navfont" style="padding:15"><a href="#home">Home</a></li>
+  <li class="navfont" style="padding:15"><a href="#news">News</a></li>
+  <li class="navfont" style="padding:15"><a href="#contact">Contact</a></li>
+-->
+  <!--<li style="float:right; padding:15"><a href="reg.html" target="_blank">Log In/Sign Up</a></li>
+  <li style="float:right; padding:15"><a href="#1">About us</a></li>-->
+   <li style="float:right; padding:15"><a href="frame.html" target="_blank"><i class="fa fa-home homeIcon"></i></a></li>
+
+</ul>
+<div class="divbg">
+	<p>
+		<pre style="color: white;">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<font style="padding-right:50; font-size: 100; font-weight: bold; font-family:Trebuchet MS;">PIZZA</font>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</pre>
+	</p>
+</div>
+
+<form method="POST" action="purchase.php">
+	<table align="center">
+	<tr><td>
+			<input style="box-shadow: none;" class="zoom" type="tel" placeholder="Enter Phone Number" name="Phonenumber">
+		</td></tr>
+		<tr><td><br></td></tr>
+	<tr class="tra" style="box-shadow: 5px">
+		<td>
+			<table>
+				<tr class="tra" style="box-shadow: 5px">
+					<td>
+				<table>
+				<tr style="box-shadow:6px">
+					<td>
+						<img style="border-radius: 25px;" src="margharita.jpg" height="250" alt="margharita" class="rcorners">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Margharita Pizza</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Rate 	<input type="number" value="120" name="ratem" size="1" readonly></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Quantity	<input type="number" id="quantity" name="quantitym" value="0" max="10">
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td>
+						<img style="border-radius: 25px;" src="farmhouse.jpg" height="250" alt="Farmhouse" class="rcorners">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Farm House Pizza</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Rate 	<input type="number" value="110" name="ratef" size="1" readonly></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Quantity	<input type="number" id="quantity" name="quantityf" value="0" max="10">
+					</td>
+					</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td>
+						<img style="border-radius: 25px;" src="greenwave.jpg" height="250" alt="Green Wave" class="rcorners">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Green Wave Pizza</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Rate 	<input type="number" value="160" name="rateg" size="1" readonly></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Quantity	<input type="number" id="quantity" name="quantityg" value="0" max="10">
+					</td>
+					</tr>
+			</table>
+		</td></tr><tr>
+		<td>
+			<table>
+				<tr>
+					<td>
+						<img style="border-radius: 25px;" src="Peppy_Paneer.jpg" height="250" alt="Peppy Paneer" class="rcorners">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Peppy Paneer Pizza</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Rate 	<input type="number" value="100" name="ratepp" size="1" readonly></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Quantity	<input type="number" id="quantity" name="quantitypp" value="0" max="10">
+					</td>
+					</tr>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td>
+						<img style="border-radius: 25px;" src="cheesencorn.jpg" height="250" alt="Cheesecorn" class="rcorners">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Cheesecorn Pizza</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Rate 	<input type="number" value="180" name="ratec" readonly></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Quantity	<input type="number" id="quantity" name="quantityc" value="0" max="10">
+					</td>
+					</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+				<tr>
+					<td>
+						<img style="border-radius: 25px;" src="Veggie_Paradise.jpg" height="250" alt="Veggie Paradise" class="rcorners">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Veggie Paradise Pizza</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Rate 	<input type="number" value="50" name="ratev" size="1" readonly></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Quantity	<input type="number" id="quantity" name="quantityv" value="0" max="10">
+					</td>
+					</tr>
+			</table>
+		</td>
+</tr>
+	<tr><br><br><br>
+	<td colspan="3" class="colspan3">
+						<input type="submit" name="buy" value="Buy" class="rcorners2">
+					</td>
+
+	</tr>
+</table></form>
+
+<footer><!--<hr color="#555555" size="2px">-->
+
+<table align="right">
+	<!--<th><font color="000000" size="4">FOLLOW US ON</font></th>-->
+	<!--<tr rowspan=3><center><font color="000000" size="4">FOLLOW US ON</font></center></tr>-->
+
+	<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+	<tr>
+	<td><center><a href="https://www.facebook.com/Mobile-technology-571982469815274/?__tn__=kC-R&eid=ARDttx5LW57fUPz5MOVajLHZh6t22NlnJXSrJK-_Fu09QldJYb1BsgR9uwng5t5fmzOk7DVTROADmPMm&hc_ref=ARSDvrTZUfgB1I_zJ4sqIJgORZuiDpb_B_8OOLaltb83rzYF3TG3Hnr6m54cq1xh_38&__xts__[0]=68.ARCOSvgsGgiKh7mzjad4sKdcHBuNgSW7vW0lsxSCP1KnKXxO8VjALcEauQl6VIKEhBNSxL9LeDznATyzJeffp5d7jjjwXLCpiG62LBMzN3OqvbA6kH9V9Sz6CDNYEEr6La0vYKy__HqPTWG8tcSk6TGMtZ4qED2hLIObde7NKJ8X931nL4HKr74ezAXY2xFY4oSvdob784De82dVpCpgGpHSEwWqK75p6QG9K5q1ppnq_uUHryTWqVLlThcFq65mFW8q6N7y2SUb_Uf3JzclPDsj0Xiwjg">
+		<img src="fb2.png" width="30px"></a></center></td>
+<!--	<td></td><td></td><td></td><td></td>
+	<td><center><a href="https://www.instagram.com/"><img src="ig.png" width="30px"></a></center></td>
+-->
+	<td></td><td></td><td></td><td></td>
+	<td><center><a href="https://mail.google.com/mail/?view=cm&fs=1&to=grofer@gmailvn.net"><img src="gm.png" width="30px"></a></center></td>
+	<td></td><td></td><td></td><td></td>
+	<div class="tooltip"><span class="Whats App : 9955553170">
+	
+	<td><center><a href="https://api.whatsapp.com/send?phone=919955553170"><img src="wa.png" width="30px"></a></center></td><td><p><pre> </pre></p></td>
+	
+	</span></div>
+	</tr>
+	<!--
+	<tr>
+	<td><a href="https://www.facebook.com/Mobile-technology-571982469815274/?__tn__=kC-R&eid=ARDttx5LW57fUPz5MOVajLHZh6t22NlnJXSrJK-_Fu09QldJYb1BsgR9uwng5t5fmzOk7DVTROADmPMm&hc_ref=ARSDvrTZUfgB1I_zJ4sqIJgORZuiDpb_B_8OOLaltb83rzYF3TG3Hnr6m54cq1xh_38&__xts__[0]=68.ARCOSvgsGgiKh7mzjad4sKdcHBuNgSW7vW0lsxSCP1KnKXxO8VjALcEauQl6VIKEhBNSxL9LeDznATyzJeffp5d7jjjwXLCpiG62LBMzN3OqvbA6kH9V9Sz6CDNYEEr6La0vYKy__HqPTWG8tcSk6TGMtZ4qED2hLIObde7NKJ8X931nL4HKr74ezAXY2xFY4oSvdob784De82dVpCpgGpHSEwWqK75p6QG9K5q1ppnq_uUHryTWqVLlThcFq65mFW8q6N7y2SUb_Uf3JzclPDsj0Xiwjg">
+		<font face="Nirmala UI" size="4" color="#42b4ed">Grocer Official</font></a></td>
+	
+
+<td></td><td></td><td></td><td></td>
+	<td><a href="https://www.instagram.com/"><font face="Nirmala UI" size="4" color="#42b4ed">_mob_tech_</font></a></td>
+
+	<td></td><td></td><td></td><td></td>
+	<td><a href="https://mail.google.com/mail/?view=cm&fs=1&to=grofer@gmailvn.net"><font face="Nirmala UI" size="4" color="#42b4ed">thegrocer@gmailvn.net</font></a></td>
+	<td></td><td></td><td></td><td></td>
+	<td><a href="https://api.whatsapp.com/send?phone=919955553170"><font face="Nirmala UI" size="4" color="#42b4ed">+91-9955553170 </font></a></td>
+	</tr>-->
+</table>
+
+<!--<hr color="#555555" size="2px">-->
+
+</footer>
+<br><br>
+</body>
+</html>
